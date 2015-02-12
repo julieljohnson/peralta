@@ -1,0 +1,193 @@
+body {
+  background: url(images/bg.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat; }
+
+.wrapper {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px; }
+
+.media {
+  width: 100%;
+  vertical-align: top; }
+  .media .subscribe {
+    font-family: 'Droid Sans', sans-serif;
+    display: inline-block;
+    width: 68%;
+    vertical-align: right; }
+    .media .subscribe img {
+      float: right;
+      padding: 5px; }
+
+nav {
+  font-family: 'Droid Sans', sans-serif;
+  width: 100%;
+  margin-bottom: 30px;
+  vertical-align: bottom; }
+  nav ul {
+    width: 100%; }
+    nav ul li {
+      font-family: 'Droid Sans', sans-serif;
+      list-style-type: none;
+      display: inline-block;
+      background-color: #993333;
+      text-align: center;
+      text-align: middle;
+      width: 22.7%;
+      height: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+
+.PowerPeralta img {
+  border: 6px solid white; }
+
+.Info {
+  clear: both;
+  max-width: 800px;
+  width: auto;
+  padding: 10px 10px 10px 10px; }
+  .Info .Infosection {
+    width: 245px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 8px 8px -8px #999;
+    background-color: white;
+    display: inline-block;
+    line-height: 20px; }
+    .Info .Infosection h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      margin: 0 auto;
+      padding-top: 0px; }
+    .Info .Infosection h4 {
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 10px; }
+    .Info .Infosection p {
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 10px; }
+    .Info .Infosection a {
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 8px;
+      position: relative;
+      display: block;
+      text-align: center; }
+
+.skaterpicture {
+  display: block; }
+  .skaterpicture .skaters {
+    width: 65%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 50px; }
+    .skaterpicture .skaters a {
+      font-family: 'Montserrat', sans-serif;
+      display: inline-block;
+      background-size: cover !important;
+      text-decoration: none;
+      text-align: center;
+      font-size: 32px;
+      color: white; }
+  .skaterpicture .lance {
+    background-image: url("images/lance.png");
+    width: 240px;
+    height: 180px;
+    margin-right: 10px;
+    border: 2px solid white; }
+  .skaterpicture .rodney {
+    background-image: url("images/rodney.png");
+    width: 240px;
+    height: 180px;
+    border: 2px solid white; }
+  .skaterpicture .steve {
+    background-image: url("images/steve.png");
+    width: 490px;
+    height: 180px;
+    margin-top: 10px;
+    border: 2px solid white; }
+  .skaterpicture .tommyright {
+    width: 32%;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px; }
+    .skaterpicture .tommyright a {
+      font-family: 'Montserrat', sans-serif;
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      background-size: cover !important;
+      text-decoration: none;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      position: relative; }
+    .skaterpicture .tommyright .tommy {
+      background-image: url("images/tommy.png");
+      margin-right: 30px;
+      width: 240px;
+      height: 373px;
+      border: 2px solid white;
+      float: right;
+      clear: both; }
+
+.boardpics {
+  background-color: white; }
+  .boardpics li {
+    display: inline-block;
+    padding-left: 4px; }
+
+.footer {
+  display: inline-block;
+  background-color: white; }
+  .footer .column1 {
+    font-family: 'Droid Sans', sans-serif;
+    display: inline-block;
+    width: 50%;
+    padding: 2%; }
+    .footer .column1 p {
+      line-height: 25px; }
+    .footer .column1 ul {
+      padding: 2%;
+      margin-right: 60px; }
+      .footer .column1 ul li {
+        display: inline-block;
+        list-style-type: none; }
+        .footer .column1 ul li img {
+          width: 50%;
+          height: 50%; }
+  .footer .column2 {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    line-height: 20px;
+    padding: 3%; }
+    .footer .column2 .name {
+      font-size: 16px;
+      width: 98%;
+      margin-bottom: 5px;
+      border-radius: 3px; }
+    .footer .column2 .email {
+      font-size: 16px;
+      width: 98%;
+      margin-bottom: 5px;
+      border-radius: 3px; }
+    .footer .column2 .message {
+      font-size: 16px;
+      width: 98%;
+      height: 100px;
+      border-radius: 3px; }
+    .footer .column2 .submit {
+      font-family: 'Droid Sans', sans-serif;
+      background-color: #993333;
+      float: right;
+      width: 60%;
+      height: 30px;
+      color: white;
+      border-radius: 3px; }
